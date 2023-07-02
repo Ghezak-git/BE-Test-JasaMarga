@@ -16,7 +16,7 @@ This is a sample API documentation for the Login and CRUD functionality.
   - [CreateRuas](#createruas)
   - [UpdateRuas](#updateruas)
   - [DeleteRuas](#deleteruas)
-  - [ImportRuas](#importruas)
+  - [ImportUsers](#importusers)
 
 ## Introduction
 
@@ -92,7 +92,7 @@ Register new user.
     "message": "User has been created"
   }
 
-### Refresh Token
+### RefreshToken
 
 Refresh access token.
 
@@ -168,7 +168,7 @@ Get all ruas.
     "total": 1
   }
 
-## Get One Ruas
+## GetRuasOne
 
 Get one ruas.
 
@@ -217,7 +217,7 @@ Get one ruas.
     }
   }
 
-## Create Ruas
+## CreateRuas
 
 Create new ruas.
 
@@ -240,7 +240,7 @@ Create new ruas.
     "message": "Ruas created successfully"
   }
 
-## Update Ruas
+## UpdateRuas
 
 Update ruas.
 
@@ -276,7 +276,7 @@ Update ruas.
     "message": "Ruas updated successfully"
   }
 
-## Delete Ruas
+## DeleteRuas
 
 Delete ruas.
 
@@ -295,11 +295,11 @@ Delete ruas.
     "message": "Ruas deleted successfully"
   }
 
-## Import Ruas
+## ImportUsers
 
-Import ruas from excel file.
+Import users from excel file.
 
-- **Endpoint**: `/import-ruas`
+- **Endpoint**: `/import-user`
 - **Method**: `GET`
 - **Request Header**: `Authorization: Bearer <access_token>` or `Cookie: access_token=<access_token>`
 
